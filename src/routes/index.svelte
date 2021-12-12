@@ -7,8 +7,6 @@
         const{error} = await supabase.auth.signOut() ;
         if (error)alert(error.message);
     }
-    
-import supabase from '$lib/db';
 
 // Select entries
 async function getEntries() {
